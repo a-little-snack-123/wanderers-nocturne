@@ -32,7 +32,7 @@ python -m http.server 4180 --directory docs
 
 打开 `http://localhost:4180`。GitHub Pages 发布源为 `main` 分支的 `/docs`。
 
-标题采用本地嵌入的志莽行书网站字集，字体授权与来源见 `docs/assets/fonts/`。新增中文标题后，安装 `fonttools`、`brotli` 并运行 `python scripts/subset_font.py` 更新字集；正文继续使用系统字体。
+标题采用本地嵌入的 Ma Shan Zheng 毛笔字体，结合轻微字号与基线变化。字体授权与来源见 `docs/assets/fonts/`。新增中文标题后，安装 `fonttools`、`brotli` 并运行 `python scripts/subset_font.py` 更新字集；正文继续使用系统字体。
 
 ## 结构
 

@@ -10,7 +10,7 @@
 
 ## 内容
 
-最新视觉调整：用户提供毛笔书法参考，主标题、章节标题与引语使用 NocturneBrush（Zhi Mang Xing 的网站字集），正文保持系统无衬线。许可及来源在 `docs/assets/fonts/`。增加中文文案后，用 fonttools + brotli 运行 `scripts/subset_font.py` 重新生成 WOFF2。
+最新视觉调整：用户要求毛笔风格更清晰，并让大小标题有适当错落。主标题、章节标题与引语使用 NocturneBrush（Ma Shan Zheng 的网站字集，替换较难辨识的 Zhi Mang Xing）；标题有轻微字号与基线变化，手机降低幅度，正文保持系统无衬线。许可及来源在 `docs/assets/fonts/`。增加中文文案后，用 fonttools + brotli 运行 `scripts/subset_font.py` 重新生成 WOFF2。
 
 28 张选定的项目图片转换为 WebP，完整尺寸保留；部分用于版本和场景切换。12 张参考图进入筛选图库，包括身体服装拆解与进一步头部修正。4 个角色阶段、6 个场景和窗边迭代案例。媒体来源清单在 `docs/assets/manifest.json`。
 

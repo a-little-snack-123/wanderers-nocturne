@@ -1,4 +1,22 @@
 const $ = (id) => document.getElementById(id);
+// Keep headings as selectable, accessible text. Group trailing punctuation with its character.
+document.querySelectorAll('h1,h2,.lead,.window-story h3').forEach(heading=>{
+ let index=0;
+ const walker=document.createTreeWalker(heading,NodeFilter.SHOW_TEXT);
+ const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+ nodes.forEach(node=>{
+  const fragment=document.createDocumentFragment();
+  for(const token of node.textContent.match(/[\u4e00-\u9fff][，。！？、：；]?|[^\u4e00-\u9fff]+/g)||[]){
+   if(!/^[\u4e00-\u9fff]/.test(token)){fragment.append(document.createTextNode(token));continue;}
+   const letter=document.createElement('span');letter.className='ink-letter';letter.textContent=token;
+   const main=heading.tagName==='H1';
+   letter.style.setProperty('--ink-y',`${(main?[0,4,-2,3,0,-3]:[0,1,-1,2,0,-1])[index%6]}px`);
+   letter.style.setProperty('--ink-scale',String((main?[1.03,.97,1.02,.94,1,1.05]:[1,.99,1.02,1,.98,1.01])[index%6]));
+   fragment.append(letter);index++;
+  }
+  node.replaceWith(fragment);
+ });
+});
 const characters = {
  v4: ['character-v4','v4 / Blender 四视图渲染','先找到轮廓，还没有找到质感。','蓝色外套、浅色头发、挎包和提灯，建立了角色的基本识别。但发片像整块壳面，袖口与手部的衔接也需要继续检查。','下一步：检查侧面厚度、发束层次，以及提灯的承重关系。'],
  v6: ['character-v6','v6 / Blender 四视图渲染','修正发束与连接，继续观察体积。','这一轮调整了头发贴合、肩袖和握灯结构。整体识别更清楚，但头发的机械分片、服装体积与手部自然度仍未达到参考目标。','下一步：用多角度检查代替只看正面，继续拆解头部与衣料。'],
