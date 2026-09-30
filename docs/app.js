@@ -16,6 +16,8 @@ const scenes = [
 const refs = [
  ['reference-character','人物整体方向','character','角色轮廓、蓝色服装与提灯'],
  ['reference-head','头部建模拆解','character','正侧背视角与头发分层'],
+ ['reference-head-refined','头部进一步修正','character','体积、轮廓与发束层级'],
+ ['reference-body','服装与身体拆解','character','外套、内裙、袖口与比例'],
  ['reference-grip','提灯握持','character','手指、提环与承重关系'],
  ['reference-animation','动作设计','character','行走、阅读与姿态参考'],
  ['reference-overview','建筑模块总览','scene','圆顶、拱窗、栏杆与道具'],

@@ -20,6 +20,8 @@ sources = {
  'reference-head': 'moonlit-control-a/art/head-reset/user-head-study-20260929.png',
  'reference-animation': 'moonlit-control-a/public/v9-reference/animation.png',
  'reference-character': 'moonlit-archive/art/character-reference-01.png',
+ 'reference-body': 'moonlit-control-a/public/v8-reference/body-guide.png',
+ 'reference-head-refined': 'moonlit-control-a/public/v8-reference/head-guide.png',
  'reference-world': 'moonlit-archive/art/reference-architectural-walk-v4.png',
  'character-v4': 'moonlit-archive/art/traveler-v4-turnaround.png',
  'character-v6': 'moonlit-archive/art/traveler-v6-turnaround.png',

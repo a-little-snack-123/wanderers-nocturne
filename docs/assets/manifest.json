@@ -70,6 +70,20 @@
     "type": "AI design reference supplied by creator"
   },
   {
+    "asset": "reference-body.webp",
+    "source": "moonlit-control-a/public/v8-reference/body-guide.png",
+    "width": 1536,
+    "height": 1024,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-head-refined.webp",
+    "source": "moonlit-control-a/public/v8-reference/head-guide.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
     "asset": "reference-world.webp",
     "source": "moonlit-archive/art/reference-architectural-walk-v4.png",
     "width": 1448,
