@@ -1,0 +1,184 @@
+[
+  {
+    "asset": "reference-overview.webp",
+    "source": "moonlit-control-a/public/v10-reference/overview.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-window.webp",
+    "source": "moonlit-control-a/public/v10-reference/window.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-hall.webp",
+    "source": "moonlit-control-a/public/v10-reference/hall.png",
+    "width": 1536,
+    "height": 1024,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-clouds.webp",
+    "source": "moonlit-control-a/public/v10-reference/clouds.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-corridor.webp",
+    "source": "moonlit-control-a/public/v10-reference/corridor.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-reading.webp",
+    "source": "moonlit-control-a/public/v10-reference/reading.png",
+    "width": 1536,
+    "height": 1024,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-grip.webp",
+    "source": "moonlit-control-a/public/v10-reference/grip.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-head.webp",
+    "source": "moonlit-control-a/art/head-reset/user-head-study-20260929.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-animation.webp",
+    "source": "moonlit-control-a/public/v9-reference/animation.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-character.webp",
+    "source": "moonlit-archive/art/character-reference-01.png",
+    "width": 1536,
+    "height": 1024,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "reference-world.webp",
+    "source": "moonlit-archive/art/reference-architectural-walk-v4.png",
+    "width": 1448,
+    "height": 1086,
+    "type": "AI design reference supplied by creator"
+  },
+  {
+    "asset": "character-v4.webp",
+    "source": "moonlit-archive/art/traveler-v4-turnaround.png",
+    "width": 1920,
+    "height": 1000,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "character-v6.webp",
+    "source": "moonlit-archive/art/traveler-v6-turnaround.png",
+    "width": 1920,
+    "height": 1000,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "character-v8.webp",
+    "source": "moonlit-control-a/output/playwright/v8-body-four.png",
+    "width": 1600,
+    "height": 1000,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "head-depth.webp",
+    "source": "moonlit-control-a/output/playwright/v8-depth-comparison.png",
+    "width": 1600,
+    "height": 1000,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "head-early.webp",
+    "source": "moonlit-control-a/output/playwright/head-reset/color-quarter.png",
+    "width": 1600,
+    "height": 800,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "window-before.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/before-window.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "window-render.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/blender-4-hero.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "reading-current.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-seated.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "reading-animation.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v9/final-read-seated.png",
+    "width": 1280,
+    "height": 720,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-1.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-1.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-2.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-2.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-3.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-3.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-4.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-4.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-5.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-5.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  },
+  {
+    "asset": "scene-6.webp",
+    "source": "moonlit-control-a/output/playwright/reference-v11/runtime-6.png",
+    "width": 1440,
+    "height": 960,
+    "type": "Project process evidence; see page caption for version and renderer"
+  }
+]
