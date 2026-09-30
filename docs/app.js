@@ -1,4 +1,13 @@
 const $ = (id) => document.getElementById(id);
+// Return to the referring page without stepping through this page's section anchors.
+// Direct visits keep the portfolio project entry as a useful fallback.
+try {
+ const previous = new URL(document.referrer);
+ if (['http:', 'https:'].includes(previous.protocol) && (previous.origin !== location.origin || previous.pathname !== location.pathname)) {
+  if (previous.origin === 'https://a-little-snack-123.github.io' && previous.pathname === '/xinyue-portfolio/' && !previous.hash) previous.hash = 'nocturne';
+  $('portfolio-back').href = previous.href;
+ }
+} catch {}
 // Keep headings as selectable, accessible text. Group trailing punctuation with its character.
 document.querySelectorAll('h1,h2,.lead,.window-story h3').forEach(heading=>{
  let index=0;
